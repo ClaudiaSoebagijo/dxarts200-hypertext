@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+  font-family: Arial;
+}
+
+.hidden-link,
+.hidden-link:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+.hidden-link:hover,
+.hidden-link:focus {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
